@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header,
+.hero,
+.body,
+.bar,
+.footer {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  background-color: #fbdcc4;
+}
+.box {
+  min-height: 100px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .box {
+  background-color: #f0a500;
+}
+
+.hero .box {
+  background-color: #ff4b5c;
+}
+.footer .box {
+  background-color: #bbd196;
+}
+
+.body .box {
+  background-color: #5eaaa8;
+}
+
+.box.blue {
+  background-color: #407088;
+}
+.box.purple {
+  background-color: #9d65c9;
+}
